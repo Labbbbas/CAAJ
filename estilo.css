@@ -1,0 +1,75 @@
+*{
+    font-family: 'Cabin', Arial, Helvetica, sans-serif;
+}
+body{
+    background: #202F46;
+}
+.nav__responsive-ul{
+    display: none;
+}
+.nav{
+    background: #000;
+}
+.header__div-icono{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+    top: 13px;
+    left: 20px;
+}
+.nav__li{
+    display: inline-block;
+    padding: 40px;
+    text-align: center;
+}
+.nav__li a{
+    text-decoration: none;
+    color: rgb(111, 141, 224);
+    transition: .5s;
+}
+.nav__li:hover > a{
+    color: #fff;
+    font-size: 17px;
+    transition: .5s;
+}
+.header__div2-h1{
+    text-align: center;
+}
+.section1{
+    display: inline-block;
+    width: 100%;
+    background: #000;
+}
+.div__img{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.div__h2-nuestraVision{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.div__h2-p{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.img__jovenes{
+    display: inline-block;
+    width: 500px;
+}
+
+
+@media only screen and (max-width: 715px){
+    .nav__ul{
+        display: none;
+    }
+    .nav__responsive-ul{
+        display: block;
+    }
+}
+
